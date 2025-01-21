@@ -5,4 +5,3 @@ Update README.md with GitHub Pages link
 
 [View my site](https://gcorpuz.github.io/studentsite/)
 
-Sup you hamma
