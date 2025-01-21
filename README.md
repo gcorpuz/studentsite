@@ -1,4 +1,4 @@
-# studentsitehttps://gcorpuz.github.io/studentsite/
+# studentsite(https://gcorpuz.github.io/studentsite/)
 
 # Giochele Corpuz's Student Site
 
