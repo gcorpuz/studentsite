@@ -68,6 +68,12 @@ main {
     padding: 6em 1em;
 }
 
+/* SUB PAGES */
+.page-sub .hero {
+    background-color:rgba(0, 0, 0, 0.1);
+    color: rgba(0, 0, 0, 0.8);
+}
+
 .hero h2 {
     font-size: 6em;
     line-height: 1;
