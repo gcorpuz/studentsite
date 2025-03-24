@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
 
-    //TOGGLE NAV MOBILE MENU FOR SMALL SCREENS
+    //JAVASCRIPT FUNCTIONS GO HERE
 
 });
