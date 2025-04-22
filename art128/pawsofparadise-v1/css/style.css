@@ -352,7 +352,13 @@ section{
 } */
 
 /*UPDATE HERO*/
-
+.hero {
+    background-color: #20546b;
+    color:#fff;
+}
+.hero img {
+    /* max-width: 800px; */
+}
 .hero .container {
     width: 100vw; /* Full viewport width */
     max-width: 100%; /* Ensures it takes up the full width */
@@ -502,11 +508,3 @@ form input[type="submit"]:hover {
     text-align: center;
 }
 
-.section-title::after {
-    content: "";
-    display: block;
-    width: 150px;
-    margin: 1em auto;
-    border-bottom: 3px solid rgba(0,0,0,.2)
-    
-}
