@@ -105,6 +105,7 @@ img {
     height: auto;
 }
 
+
 /*BUTTONS*/
 .button, 
 button {
@@ -148,8 +149,8 @@ body{margin: 0;}
 /*CONTAINER*/
 .container {
     max-width: 1200px;
+    padding:0 0;
     margin: 0 auto;
-    padding:0 4%;
 }
 
 /*MEDIA QUERIES*/
@@ -294,6 +295,7 @@ header {
 .site-header a,
 .site-footer a {
     color: rgba(0,0,0,.8);
+    
 }
 .site-header a:hover, 
 .site-footer a:hover {
@@ -331,12 +333,28 @@ header {
 }
 
 /*SECTIONS*/
+section {
+    padding: 4em 2em;
+}
+
+
+
 #about {
     background-color:#69a5bf ;
-    color: #fff;
- 
+    color: #fff;  
+    
     
 }
+
+#services {
+    background-color:#a3c7d6 ;
+    color: #fff;
+}
+
+#reviews {
+    background-color: #69a5bf;
+}
+
 
 
 /*HERO*/
@@ -344,9 +362,10 @@ header {
     background-color: #20546b;
     color:#fff;
 
+
 }
-h1{
-    padding: 0.1em;
+.hero h1{
+    margin-top: -.5em;
 }
 .hero img {
     /* max-width: 800px; */
@@ -355,8 +374,6 @@ h1{
 .hero .container {
     width: 100vw; /* Full viewport width */
     max-width: 100%; /* Ensures it takes up the full width */
-    padding: 6em 0; /* Remove left/right padding */
-    background-color: rgba(0,0,0,.1);
     text-align: center;
 }
  /* TOGGLE NAV*/
@@ -380,7 +397,7 @@ article {
     margin-right: auto;
 }
 
-p {
+article p {
     max-width: 600px; /* Adjust width as needed */
     margin-left: auto;
     margin-right: auto;
