@@ -516,3 +516,22 @@ form input[type="submit"]:hover {
     text-align: center;
 }
 
+/* Blue box */
+
+.box{
+    background-color: #69a5bf;
+    padding: 2em 2em;
+    border-radius: 1em;
+}
+#services h2 {
+    text-align: center;
+    padding: 1em;
+}
+#services ul {
+    margin: 0;
+    padding: 0;
+}
+#services li {
+    line-height: 1.1;
+    list-style: none;
+}
