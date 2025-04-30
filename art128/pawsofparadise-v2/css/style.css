@@ -111,8 +111,8 @@ img {
 button {
     font-size: inherit;
     line-height: 1;
-    background-color: rgb(201, 128, 33);
-    border: 1px solid rgba(201, 128, 33, 1);
+    background-color: #20546b;
+    border: 1px solid #20546b;
     color: rgba(255,255,255,1);
     padding: 1em;
     display: inline-block; 
@@ -122,23 +122,16 @@ border-radius: .5em;
 }
 .button:hover,
 button:hover {
-    background-color: rgb(218, 156, 76);
-    border-color:rgba(201, 128, 33, 1);
+    background-color: #36728b;
+    border-color:#36728b;
 color: rgba(255,255,255,1);
 text-decoration: none;
 
 }
 
-.button.alt{
-    background-color: transparent;
-    color: rgba(201, 128,33, 1);
-}
 
-.button.alt:hover {
-    background-color: rgba(218, 156, 76, 1);
-    color: rgba(255,255,255,1);
-}
 
+ 
 
 /*LAYOUT*/
 
@@ -352,9 +345,8 @@ section {
 }
 
 #reviews {
-    background-color: #69a5bf;
+    background-color: #a3c7d6 ;
 }
-
 
 
 /*HERO*/
@@ -525,7 +517,7 @@ form input[type="submit"]:hover {
 }
 #services h2 {
     text-align: center;
-    padding: 1em;
+    padding-bottom: 1em;
 }
 #services ul {
     margin: 0;
@@ -535,3 +527,4 @@ form input[type="submit"]:hover {
     line-height: 1.1;
     list-style: none;
 }
+
