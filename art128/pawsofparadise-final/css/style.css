@@ -335,7 +335,7 @@ footer li {
     list-style: none;
     display: flex;
     justify-content: center;
-    
+  
 }
 
 .site-nav a {
@@ -550,6 +550,7 @@ form input[type="submit"]:hover {
     list-style: none;
 }
 
+/* reviews */
 
 #reviews ul {
     margin: 0;
@@ -563,7 +564,14 @@ form input[type="submit"]:hover {
 #reviews .box {
     padding: 2em;
     border-radius: 1em;
-    width: 1200px;
-    height: 350px;
     
+}
+
+#reviews .lightbluebox{
+    border-radius: 1em;
+    border:.5em solid rgb(255 255 255 / .5);
+}
+
+#reviews .cite {
+    border-radius: 1em;
 }
