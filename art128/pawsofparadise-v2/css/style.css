@@ -264,7 +264,7 @@ padding: .5em;
  
 /* SITE HEADER*/
 header {
-    background-color: #20546b;
+    background-color: #fff;
     padding: 1em 0;
 }
 
@@ -286,8 +286,8 @@ header {
 
 /*STYLING FOR BOTH HEADER AND FOOTER*/
 footer {
-    background-color: #20546b;
-    color: #fff;
+    /*background-color: #20546b; */
+    color: #000000;
 }
 
 footer ul {
@@ -309,7 +309,7 @@ footer li {
 
 .site-header a,
 .site-footer a {
-    color: #fff;
+    color: #000000;
     
 }s
 .site-header a:hover, 
