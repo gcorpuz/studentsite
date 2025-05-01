@@ -111,8 +111,8 @@ img {
 button {
     font-size: inherit;
     line-height: 1;
-    background-color: rgb(201, 128, 33);
-    border: 1px solid rgba(201, 128, 33, 1);
+    background-color: #20546b;
+    border: 1px solid #20546b;
     color: rgba(255,255,255,1);
     padding: 1em;
     display: inline-block; 
@@ -122,23 +122,16 @@ border-radius: .5em;
 }
 .button:hover,
 button:hover {
-    background-color: rgb(218, 156, 76);
-    border-color:rgba(201, 128, 33, 1);
+    background-color: #36728b;
+    border-color:#36728b;
 color: rgba(255,255,255,1);
 text-decoration: none;
 
 }
 
-.button.alt{
-    background-color: transparent;
-    color: rgba(201, 128,33, 1);
-}
 
-.button.alt:hover {
-    background-color: rgba(218, 156, 76, 1);
-    color: rgba(255,255,255,1);
-}
 
+ 
 
 /*LAYOUT*/
 
@@ -271,7 +264,7 @@ padding: .5em;
  
 /* SITE HEADER*/
 header {
-    
+    background-color: #20546b;
     padding: 1em 0;
 }
 
@@ -292,11 +285,33 @@ header {
 }
 
 /*STYLING FOR BOTH HEADER AND FOOTER*/
+footer {
+    background-color: #20546b;
+    color: #fff;
+}
+
+footer ul {
+    margin: 0.5em;
+    padding-top: 2em; 
+      
+}
+
+footer li {
+    line-height: 1.5;
+    list-style: none; 
+}
+
+.row h6 {
+    margin-left: 6;
+}
+
+ 
+
 .site-header a,
 .site-footer a {
-    color: rgba(0,0,0,.8);
+    color: #fff;
     
-}
+}s
 .site-header a:hover, 
 .site-footer a:hover {
     color: rgba(0,0,0,1);
@@ -352,9 +367,8 @@ section {
 }
 
 #reviews {
-    background-color: #69a5bf;
+    background-color: #a3c7d6 ;
 }
-
 
 
 /*HERO*/
@@ -516,3 +530,40 @@ form input[type="submit"]:hover {
     text-align: center;
 }
 
+/* Blue box */
+
+.box{
+    background-color: #69a5bf;
+    padding: 2em 2em;
+    border-radius: 1em;
+}
+#services h2 {
+    text-align: center;
+    padding-bottom: 1em;
+}
+#services ul {
+    margin: 0;
+    padding: 0;
+}
+#services li {
+    line-height: 1.1;
+    list-style: none;
+}
+
+
+#reviews ul {
+    margin: 0;
+    padding: 0;
+}
+
+#reviews p {
+    text-align: left;
+}
+
+#reviews .box {
+    padding: 2em;
+    border-radius: 1em;
+    width: 1200px;
+    height: 350px;
+    
+}
