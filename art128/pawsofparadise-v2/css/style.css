@@ -264,7 +264,7 @@ padding: .5em;
  
 /* SITE HEADER*/
 header {
-    
+    background-color: #20546b;
     padding: 1em 0;
 }
 
@@ -285,11 +285,33 @@ header {
 }
 
 /*STYLING FOR BOTH HEADER AND FOOTER*/
+footer {
+    background-color: #20546b;
+    color: #fff;
+}
+
+footer ul {
+    margin: 0.5em;
+    padding-top: 4.5em; 
+      
+}
+
+footer li {
+    line-height: 1.5;
+    list-style: none; 
+}
+
+.row h6 {
+    margin-left: 6;
+}
+
+ 
+
 .site-header a,
 .site-footer a {
-    color: rgba(0,0,0,.8);
+    color: #fff;
     
-}
+}s
 .site-header a:hover, 
 .site-footer a:hover {
     color: rgba(0,0,0,1);
@@ -528,3 +550,20 @@ form input[type="submit"]:hover {
     list-style: none;
 }
 
+
+#reviews ul {
+    margin: 0;
+    padding: 0;
+}
+
+#reviews p {
+    text-align: left;
+}
+
+#reviews .box {
+    padding: 2em;
+    border-radius: 1em;
+    width: 1200px;
+    height: 350px;
+    
+}
