@@ -102,6 +102,12 @@ a:hover {
     margin-right: auto; 
 }
 
+.visually-hidden{
+    position:absolute;
+    top: -9999px;
+    left: -9999px;
+}
+
 /*IMAGES*/
 img {
     max-width: 100%;
@@ -278,7 +284,13 @@ footer li {
     margin-left: 6;
 }
 
- 
+.site-header{
+    padding-left: 1.3em;
+    padding-right: .8em;
+}
+ .site-footer{
+    padding: 2em;
+ }
 
 .site-header a,
 .site-footer a {
@@ -369,7 +381,7 @@ section {
  /* TOGGLE NAV*/
  @media screen and (max-width: 768px) {
     .site-nav {
-        display: none;
+        /* display: none; */
     }
 }
 
@@ -565,4 +577,9 @@ form input[type="submit"]:hover {
 #reviews blockquote {
     margin-top: 2.5em;
     color: #fff;
+}
+
+/* temp for dev purposes only */
+*{
+    /* border: 1px solid red; */
 }
