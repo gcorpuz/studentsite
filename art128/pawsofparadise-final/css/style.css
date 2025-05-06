@@ -187,6 +187,9 @@ body{margin: 0;}
         margin-left: -2%;
         margin-right: -2%;    
     }
+    .row.vert-centered{
+        align-items: center;
+    }
 
     .row > .column {
     flex-grow: 1;
@@ -329,6 +332,10 @@ section {
     color: #fff;  
     
     
+}
+
+.rounded-corners{
+    border-radius: 50px;
 }
 
 #services {
@@ -520,7 +527,7 @@ form input[type="submit"]:hover {
 }
 
 #services img {
-    padding-top: 150px;
+    /* margin-top: 150px; */
 }
 
 
@@ -545,7 +552,7 @@ form input[type="submit"]:hover {
 #reviews .lightbluebox{
     border-radius: 1em;
     border:.5em solid rgb(255 255 255 / .5);
-    margin-top: 3em;
+    margin-top: 2em;
 }
 
 #reviews cite {
@@ -556,6 +563,6 @@ form input[type="submit"]:hover {
 }
 
 #reviews blockquote {
-    margin-top: 2em;
+    margin-top: 2.5em;
     color: #fff;
 }
