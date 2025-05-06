@@ -31,10 +31,13 @@
 
 body {
     font-size: 87.5%;; /* 14px*/
-    font-family: Helvetica, Arial, sans-serif;
+    /*font-family: Helvetica, Arial, sans-serif; */
+   font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif; 
     line-height: 1.5;
     color: rgba(0,0,0,.8);
 }
+
+
 
 /*HEADINGS*/
 /*
@@ -168,46 +171,9 @@ body{margin: 0;}
         }
 
 /* FOR DEMO PURPOSES ONLY*/
-body.demo {
-    padding-top: 2em;
-}
-body.demo:before {
-content: "Small Screen Less Than 768px";
-background-color: #933;
-width: 100%;
-position:fixed;
-top: 0;
-text-align: center;
-color: white;
-padding: .5em;
-}
 
-@media (min-width: 768px) {
-    body.demo::before {
-        background-color:#bcb83d;
-        content: "Midsize (Tablet) 768px - 1050px";
-        text-align:center
 
-    }
-    }
 
-    @media (min-width: 1050px) {
-        body.demo::before {
-            background-color: #693;
-            content: "Large (Notebook) Screen 1050px- 1250px";
-            text-align: center;
-    
-        }
-        }
-
-        @media (min-width: 1250px) {
-            body.demo::before {
-                background-color: rgb(51, 107, 153);
-                content: "Extra Large (Notebook) Screen 1250px +";
-                text-align: center;
-        
-            }
-            }
 
 /* SEMATIC GRID SYSTEM */
 .row > .column {
@@ -381,9 +347,7 @@ section {
 .hero h1{
     margin-top: -.5em;
 }
-.hero img {
-    /* max-width: 800px; */
-}
+ 
  
 .hero .container {
     width: 100vw; /* Full viewport width */
@@ -400,7 +364,7 @@ section {
 
 /*BASE SUB PAGES STYLING*/
 .site-nav a:hover {
-    color: orange;
+    color: #a3c7d6;
 }
 
 /*SUB PAGES*/ 
@@ -412,7 +376,7 @@ article {
 }
 
 article p {
-    max-width: 600px; /* Adjust width as needed */
+    max-width: 600px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -572,6 +536,8 @@ form input[type="submit"]:hover {
     border:.5em solid rgb(255 255 255 / .5);
 }
 
-#reviews .cite {
-    border-radius: 1em;
+#reviews cite {
+    font-weight: bold;
+    display: block;
+    margin-top: 0.5em;
 }
