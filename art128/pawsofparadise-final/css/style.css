@@ -234,6 +234,10 @@ header {
     padding: 1em 0;
 }
 
+.site-nav ul{
+    font-weight: bold;
+}
+
 /* ON LARGER SCREENS PLACE LOGO LEFT AND NAV RIGHT*/
 @media (min-width: 768px) {
     .site-header .container {
@@ -280,7 +284,7 @@ footer li {
 }s
 .site-header a:hover, 
 .site-footer a:hover {
-    color: rgba(0,0,0,1);
+    color: #69a5bf;
     text-decoration: none;
 }
 
@@ -547,8 +551,10 @@ form input[type="submit"]:hover {
     font-weight: bold;
     display: block;
     margin-top: 0.5em;
+    font-size: 115%;
 }
 
 #reviews blockquote {
     margin-top: 2em;
+    color: #fff;
 }
