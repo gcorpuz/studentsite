@@ -350,6 +350,7 @@ section {
 }
 .hero h1{
     margin-top: -.5em;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
  
  
@@ -544,7 +545,7 @@ form input[type="submit"]:hover {
 #reviews .lightbluebox{
     border-radius: 1em;
     border:.5em solid rgb(255 255 255 / .5);
-    margin-top: 2em;
+    margin-top: 3em;
 }
 
 #reviews cite {
