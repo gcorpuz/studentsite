@@ -258,7 +258,7 @@ footer {
 
 footer ul {
     margin: 0.5em;
-    padding-top: 2em; 
+    padding-top: 3.5em; 
       
 }
 
@@ -494,7 +494,7 @@ form input[type="submit"]:hover {
     text-align: center;
 }
 
-/* Blue box */
+/* Blue box & Services */
 
 .box{
     background-color: #69a5bf;
@@ -514,6 +514,12 @@ form input[type="submit"]:hover {
     list-style: none;
 }
 
+#services img {
+    padding-top: 150px;
+}
+
+
+
 /* reviews */
 
 #reviews ul {
@@ -528,16 +534,21 @@ form input[type="submit"]:hover {
 #reviews .box {
     padding: 2em;
     border-radius: 1em;
-    
+
 }
 
 #reviews .lightbluebox{
     border-radius: 1em;
     border:.5em solid rgb(255 255 255 / .5);
+    margin-top: 2em;
 }
 
 #reviews cite {
     font-weight: bold;
     display: block;
     margin-top: 0.5em;
+}
+
+#reviews blockquote {
+    margin-top: 2em;
 }
