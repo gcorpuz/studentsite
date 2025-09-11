@@ -158,13 +158,13 @@ body {  margin: 0; }
     margin-block-end: var(--grid-gap);
 }
 
-@media (min-width: 768px) {
+    @media (min-width: 768px) {
    
-    .row {
+.row {
         display: grid;
         grid-template-columns: repeat(12, 1fr);
         gap: var(--grid-gap);
-    }
+}
 
     .one-half { grid-column: auto / span 6; }
     .one-third { grid-column: auto / span 4; }
